@@ -1,0 +1,496 @@
+<!DOCTYPE HTML>
+<html>
+		
+		<head>
+
+				<title>
+
+					Find a co-op | Cooper
+
+				</title>	
+
+				<meta charset="utf-8">
+
+				<meta name = "viewport" content="width=device-width, initial-scale=1">
+
+				<link rel = "shortcut icon" type = "image/png" href = "iconImage.png">
+
+				
+				<!-- CSS only -->
+				<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+				<style>
+
+					/*   X-Small   */
+					@media (min-width:  100px){
+
+						body{
+
+							background-color: green;
+
+						}
+
+					}
+
+					/*   Small   */
+					@media (min-width:  576px){
+
+						body{
+
+							background-color: blue;
+
+						}
+
+					}
+
+						/*   Medium   */
+						@media (min-width:  768px){
+
+						body{
+
+							background-color: red;
+
+						}
+						
+					}
+
+						/*   Large   */
+						@media (min-width:  992px){
+
+						body{
+
+							background-color: pink;
+
+						}
+
+					}
+
+					/*   Extra-Large   */
+						@media (min-width:  1200px){
+
+						
+
+					}
+
+					/*   Extra-extra-Large   */
+						@media (min-width:  1400px){
+
+
+						body{
+
+							background-color:   #ffffb3;
+
+             				overflow-y: scroll;
+
+						}	
+
+						#greenTopBanner{
+
+							padding: 80px;
+
+							background-color: #82b74b;
+
+						}
+
+						#yellowTopBanner{
+
+							padding: 30px;
+
+							background-color: #e4de66;
+
+						}
+
+						#innerCooper{
+
+							-webkit-text-stroke: 5px black;
+
+						}
+
+						#outerCooper{
+
+							margin-top: -180px;
+
+							margin-left: 10px;
+
+							font-family: arial;
+
+							font-size: 100px;
+
+							font-weight: bold;
+
+							color: white;
+
+							
+						}
+
+						#topSentence{
+
+							margin-top: -10px;
+
+							margin-right: -10px;
+
+							margin-left: 40px;
+
+							color:  antiquewhite;
+
+							font-size: 20px;
+
+							font-family: Helvetica;
+
+						}
+
+						#lineSentence{
+
+							margin-top: -155px;
+
+						}
+
+			
+						.fontForTopLinks{
+
+								font-size: 25px;
+
+								color:antiquewhite;
+
+								text-decoration: none;
+
+								font-family: helvetica;
+
+						}
+						
+						nav a {
+
+  							display: inline-block;
+
+  							padding: 5px;
+  
+						}
+
+						nav div {
+
+  							display: inline-block;
+
+  							padding: 5px;
+
+  							font-size: 25px;
+
+								color:antiquewhite;
+
+								text-decoration: none;
+
+								font-family: helvetica;
+
+  
+						}
+
+						button{
+
+						 font-family: helvetica;
+
+						 width:  100px;
+
+						 height: 59px;
+
+						}
+
+						button:hover{
+
+							transition-duration: 0.2s;
+
+  						cursor: pointer;
+
+  						background-color: #4CAF50;
+
+  						padding: 6px 11px;
+
+
+
+						}
+
+						#button{
+
+							position: fixed;
+
+							margin-top: 111px;
+
+							background-color: #e4de66;
+
+
+
+						}
+
+						#about{
+
+							position: fixed;
+
+							margin-top: 111px;
+
+							background-color: #e4de66;
+
+							margin-left:  100px;
+
+						}
+
+
+						#contact{
+
+							position: fixed;
+
+							margin-top: 111px;
+
+							background-color: #e4de66;
+
+							margin-left:  200px;
+
+						}
+
+						#positionMyNav{
+
+							position: fixed;
+
+							margin-top: 30px;
+
+							margin-left: 60%;
+
+
+						}
+
+
+
+
+					}
+
+
+				
+
+					
+
+					
+
+					
+
+
+				</style>	
+
+		</head>
+		
+		<body>
+
+			<div id = "greenTopBanner">
+				
+			</div>
+
+			<div id ="yellowTopBanner">
+
+						<div id = "outerCooper">
+
+								<i id = "innerCooper">C o o p e r </i>
+
+						</div>	
+
+
+						<div id = "topSentence">
+
+								<p id = "lineSentence">Find a job exclusively in a co-op!</p>
+
+						</div>	
+
+						<div id = "positionNav">
+
+						<nav dir = "rtl" style = "margin-top: -50px;">
+
+								<a class = "fontForTopLinks" href="login.html">Login</a>
+
+								<div>|</div>
+
+								<a class = "fontForTopLinks" href="createAccount.html">Create Account</a>
+
+						</nav>	
+
+						</div>
+
+
+
+					<div id = "button">
+
+						<button onclick = "location.href='index.html'"type="button" class="btn btn-default" style = "font-size: 23px;">Home</button>
+						
+					</div>		
+
+
+					<div id = "about">
+
+						<button onclick = "location.href='about.html'"type="button" class="btn btn-default" style = "font-size: 23px;">About</button>
+						
+					</div>		
+
+
+					<div id = "contact">
+
+						<button onclick = "location.href='contact.html'"type="button" class="btn btn-default" style = "font-size: 23px;">Contact</button>
+						
+					</div>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div id = "positionMyNav">
+
+					<nav class = "navbar navbar-expand-xl justify-content-center bg-light" style = "margin-top: 30px;height: 25px;color:black;">
+
+						<ul class="navbar-nav">
+
+							<li class = "nav-item  bg-light" style=" border-top-left-radius: 5px;border-bottom-left-radius: 5px;background-color: grey;padding: 5px; border-right: 1px solid grey;">
+
+												
+
+												<form action="#" style="color:black;width:180px;text-align: center;font-size: 18px;" class = "nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+      <select>
+  <option value="job">Job</option>    	
+	<option value="softwareEngineer">Software Engineer</option>
+		<option value="webProgrammer">Web programmer</option>
+		<option value="agriculture">Agriculture</option>
+		<option value="cashier">Cashier</option>
+		<option value="banking">Banking</option>
+		<option value="manufacturing">Manufacturing</option>
+
+</select>				
+	
+</form>
+
+							</li>
+
+							<li class = "nav-item bg-light" style="background-color: grey;padding: 5px; border-left: 1px solid grey;">
+
+								
+
+												<form action="#" style="color:black;width:190px;text-align: center;font-size: 18px;" class = "nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+      <select>
+  <option value="state">State</option>    	
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+</select>				
+	
+</form>
+
+							</li>
+
+							<li class = "nav-item dropdown bg-light" style="border-bottom-right-radius: 5px;border-top-right-radius: 5px;background-color: grey;padding: 5px; border-right: 1px solid grey;">
+
+								<button style = "border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px;width:55px; height: 40px">
+
+								<a  style=" margin-left: -3px;margin-bottom: -5px;width: 25px; height:  25px;background: url(search.png);background-size: cover;color:black;text-align: center;font-size: 18px;">
+
+									
+
+								</a>
+
+							</button>
+								
+
+							</li>
+						</ul>
+					</nav>
+
+
+				</div>
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+
+		</body>
+
+</html>
+
+
